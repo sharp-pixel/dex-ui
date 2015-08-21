@@ -10,7 +10,7 @@
 
 #define GRID_SIZE 15
 #define WIDTH 1920
-#define HEIGHT 1200
+#define HEIGHT 1080
 
 #define TICK_SIZE 2
 
@@ -28,10 +28,12 @@
 
 #define MAIN_FONT_LINUX ""
 #define MAIN_FONT_MAC ""
-#define MAIN_FONT MAIN_FONT_LINUX
+#define MAIN_FONT_WIN "StratumNo2"
+#define MAIN_FONT MAIN_FONT_WIN
 
 #define TERMINAL_FONT_LINUX ""
-#define TERMINAL_FONT TERMINAL_FONT_LINUX
+#define TERMINAL_FONT_WIN "Arial"
+#define TERMINAL_FONT TERMINAL_FONT_WIN
 
 #define NOISE_BG "images/noise-bg-color-darker.png"
 
